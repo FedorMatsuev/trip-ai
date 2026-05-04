@@ -1,0 +1,51 @@
+/* Улучшенные стили для альтернативных вариантов */
+.alternative-item {
+  background: var(--white);
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  min-width: 200px;
+  transition: transform 0.2s;
+}
+
+.alternative-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.alt-type {
+  font-weight: bold;
+  color: var(--primary);
+  font-size: 1.1rem;
+}
+
+.alt-price {
+  font-weight: bold;
+  color: var(--dark);
+  font-size: 1.1rem;
+}
+
+.alt-time {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Стили для маршрутной информации */
+.route-info {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-left: 4px solid var(--primary);
+}
+
+.error-message {
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
