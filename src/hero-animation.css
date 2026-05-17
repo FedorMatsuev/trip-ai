@@ -1,0 +1,18 @@
+/* Анимированный градиентный фон */
+.hero {
+  background: linear-gradient(-45deg, #0f0c29, #1a1a3e, #16213e, #0f3460) !important;
+  background-size: 400% 400% !important;
+  animation: heroGradient 10s ease infinite !important;
+}
+
+@keyframes heroGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

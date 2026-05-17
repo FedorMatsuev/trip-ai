@@ -1,4 +1,5 @@
 import React from 'react'
+import '../hero-animation.css'
 
 const Hero = () => {
   return (
@@ -10,21 +11,20 @@ const Hero = () => {
             <span className="ai-gradient"> искусственным интеллектом</span>
           </h1>
           <p className="hero-subtitle">
-            Оптимизируйте маршруты, экономьте время и деньги
-            с помощью передовых AI-алгоритмов
+            Введите любой адрес - AI определит расстояние и рассчитает стоимость
           </p>
           <div className="hero-stats">
             <div className="stat">
-              <span className="stat-number">99.9%</span>
-              <span className="stat-label">Точность расчёта</span>
+              <span className="stat-number">10M+</span>
+              <span className="stat-label">Адресов в базе</span>
             </div>
             <div className="stat">
-              <span className="stat-number">30%</span>
-              <span className="stat-label">Экономия времени</span>
+              <span className="stat-number">98%</span>
+              <span className="stat-label">Точность геокодинга</span>
             </div>
             <div className="stat">
-              <span className="stat-number">25%</span>
-              <span className="stat-label">Снижение стоимости</span>
+              <span className="stat-number">24/7</span>
+              <span className="stat-label">Расчёт в реальном времени</span>
             </div>
           </div>
         </div>

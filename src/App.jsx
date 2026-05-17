@@ -1,3 +1,4 @@
+import CodeBackground from './components/CodeBackground'
 import React, { useState } from 'react'
 import { getCoordinates, calculateDistance, calculateTime } from './api/geocoding'
 import { findLocalPlace } from './api/localPlaces'
@@ -5,6 +6,8 @@ import './index.css'
 import ProjectInfo from './components/ProjectInfo'
 import Developers from './components/Developers'
 import TechStack from './components/TechStack'
+import FlyingCode from './components/FlyingCode'
+
 
 function App() {
   const [calculation, setCalculation] = useState(null)
@@ -188,6 +191,7 @@ function App() {
 
   return (
     <div className="App">
+            {/* <CodeBackground /> */}
       <header className="site-header">
         <div className="container">
           <div className="logo">
