@@ -6,7 +6,6 @@ import './index.css'
 import ProjectInfo from './components/ProjectInfo'
 import Developers from './components/Developers'
 import TechStack from './components/TechStack'
-import FlyingCode from './components/FlyingCode'
 
 
 function App() {
@@ -191,7 +190,6 @@ function App() {
 
   return (
     <div className="App">
-            {/* <CodeBackground /> */}
       <header className="site-header">
         <div className="container">
           <div className="logo">
