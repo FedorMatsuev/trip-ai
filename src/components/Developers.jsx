@@ -29,7 +29,7 @@ const Developers = () => {
           </div>
 
           <div style={{ textAlign: 'center', padding: '15px 10px', background: 'white', borderRadius: '15px', boxShadow: '0 5px 20px rgba(0,0,0,0.08)' }}>
-            <img src="https://raw.githubusercontent.com/FedorMatsuev/trip-ai/main/public/gromov.jpg" alt="Громов" style={{ width: '90px', height: '90px', borderRadius: '50%', objectFit: 'cover', marginBottom: '10px', border: '3px solid #667eea' }} />
+            <img src="https://raw.githubusercontent.com/FedorMatsuev/trip-ai/main/public/gromov.jpg" alt="Громов" style={{ width: '90px', height: '90px', borderRadius: '50%', objectFit: 'cover', objectPosition: '50% 35%', marginBottom: '10px', border: '3px solid #667eea' }} />
             <h3>Громов Илья Александрович</h3>
             <h4 style={{ color: '#667eea', marginBottom: '5px', fontSize: '13px' }}>DevOps-инженер</h4>
             <p style={{ color: '#666', fontSize: '12px' }}>Настройка CI/CD, автоматизация, поддержка развёртывания, оптимизация цикла разработки</p>
